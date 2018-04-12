@@ -23,7 +23,7 @@ docker-compose will:
    - mockery/mockery
 3. Bring up the Apache web server running the PHP GraphQL web app at http://localhost:8000
 
-To test Graphql queries and mutations against the GraphQL server, install the [ChromiQL extension for Google Chrome Browser](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij).
+To test GraphQL queries and mutations against the GraphQL server, install the [ChromiQL extension for Google Chrome Browser](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij).
 
 Open the ChromiQL extension and set the endpoint to http://localhost:8000/
 

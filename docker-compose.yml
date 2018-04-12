@@ -1,0 +1,27 @@
+version: '2'
+
+services:
+
+  graphql-server:
+    build: .
+    command: "/var/www/startup.sh"
+    volumes:
+      - $PWD/src:/var/www
+    ports:
+      - "8000:80"
+    environment:
+     - PDO_DSN_STRING=mysql:host=graphql-mariabdb;dbname=graphql
+     - PDO_USERNAME=graphql
+     - PDO_PASSWORD=9(JBt1023375
+
+  graphql-mariabdb:
+    image: mariadb   
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 1+^ncrKL)7210
+      MYSQL_DATABASE: graphql
+      MYSQL_USER: graphql
+      MYSQL_PASSWORD: 9(JBt1023375   
+    
+    

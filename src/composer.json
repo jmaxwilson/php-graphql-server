@@ -1,0 +1,18 @@
+{
+  "require": {
+    "webonyx/graphql-php": "@stable",
+    "ivome/graphql-relay-php": "@stable",
+    "overblog/dataloader-php": "@stable",
+    "guzzlehttp/guzzle": "@stable"
+  },
+  "require-dev": {
+    "phpunit/phpunit":"@stable",
+    "mockery/mockery": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "PHPGraphQLServer\\DataAccess\\": "lib/DataAccess",
+      "PHPGraphQLServer\\Schema\\": "schema"
+    }
+  }
+}
